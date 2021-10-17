@@ -123,8 +123,9 @@ function module.Visualize(Regions, PartHeight)
 			Part.Position = Position
 			Part.Color = Color
 			Part.Anchored = true
-			Part.Parent = workspace
 			Part.Size = Vector3.new(1 ,PartHeight, 1)
+			Part.Parent = workspace
+
 		end
 	end
 end
